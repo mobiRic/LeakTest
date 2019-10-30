@@ -9,6 +9,13 @@
     <fragment
         android:id="@+id/fragmentHome"
         android:name="mobi.glowworm.demo.leaktest.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home">
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentDestination"
+        android:name="mobi.glowworm.demo.leaktest.HomeFragment"
+        android:label="Destination"
         tools:layout="@layout/fragment_home">
     </fragment>
 </navigation>
